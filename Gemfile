@@ -42,6 +42,15 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+# Install devise
+gem 'devise', '~> 4.9', '>= 4.9.2'
+
+# htmlbeautifier
+gem 'htmlbeautifier', '~> 1.4', '>= 1.4.2'
+
+# cancancan
+gem 'cancancan', '~> 3.5'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
